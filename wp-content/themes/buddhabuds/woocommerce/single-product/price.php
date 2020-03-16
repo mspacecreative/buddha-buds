@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $product;
-$id = $product->get_id();
+$id = $product->id;
 
 ?>
 
