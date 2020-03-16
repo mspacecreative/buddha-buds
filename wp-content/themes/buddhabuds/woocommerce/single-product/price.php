@@ -20,13 +20,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $product;
-$id = $product->id;
+$zypher = 252;
 
 ?>
 
 <p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) );?>">
 
-<?php if ( $id == 252 ) {
+<?php if ( $zypher ) {
 	echo $product->get_price_html(); _e(' / ounce');
 	else {
 		echo $product->get_price_html(); _e(' / gram');
