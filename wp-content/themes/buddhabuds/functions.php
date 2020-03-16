@@ -210,9 +210,9 @@ add_filter( 'woocommerce_get_price_html', 'sv_change_product_html', 10, 2 );
 
 function sv_change_product_price_cart( $price, $cart_item, $cart_item_key ) {
 	if ( 252 === $cart_item['product_id'] ) {
-		$price = '$100 / ounce';
+		$price = '$100.00 / ounce';
 	} elseif ( 261 === $cart_item['product_id'] ) {
-		$price = '$8 / joint';
+		$price = '$8.00 / joint';
 	}
 	return $price;
 }	
