@@ -167,6 +167,13 @@ h1, h2, h3, h4, h5, h6, p {
 	color: #fff;
 }
 
+.woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled] {
+	padding-right: 2em;
+	padding-left: .7em;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
 .woocommerce #content .quantity input.qty, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-page #content .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce .quantity input.qty {
 	background-color: rgba(181, 157, 41, 0.25) !important;
 	color: #000 !important;
