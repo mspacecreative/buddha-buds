@@ -24,4 +24,6 @@ global $product;
 
 <?php if ( $price_html = $product->get_price_html() ) : ?>
 	<span class="price"><?php echo $price_html; _e(' / gram'); ?></span>
+<?php elseif ( $price_html = $product->id === 252 ) : ?>
+	<span class="price"><?php echo $price_html; _e(' / ounce'); ?></span>
 <?php endif; ?>
