@@ -12,4 +12,10 @@
 		splashHeight();
 	});
 	
+	if ( $('.logged-in').length ) {
+		$('.login-register').html('My Account');
+	} else {
+		$('.login-register').html('Log in / Register');
+	}
+	
 })(jQuery);
