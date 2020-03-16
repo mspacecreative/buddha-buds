@@ -67,7 +67,7 @@ get_header( 'shop' ); ?>
 				
 			<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_dark">
 				<div class="et_pb_text_inner">
-					<h2 style="font-size: 40px;">Contact Us</h2>
+					<h2 style="font-size: 40px; line-height: 1.5em;">Contact Us</h2>
 				</div>
 			</div>
 			
@@ -83,7 +83,7 @@ get_header( 'shop' ); ?>
 			<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_dark">
 				
 				<div class="et_pb_text_inner">
-					<h2 style="font-size: 40px;">My account</h2>
+					<h2 style="font-size: 40px; line-height: 1.5em;">My account</h2>
 				</div>
 				
 				<div class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_module">
