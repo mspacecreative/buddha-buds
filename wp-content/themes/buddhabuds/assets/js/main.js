@@ -15,7 +15,7 @@
 	if ( $('.logged-in').length ) {
 		$('.login-register').html('My Account');
 	} else {
-		$('.login-register').html('Log in / Register');
+		$('.login-register').html('<a href="/my-account">Log in / Register</a>');
 	}
 	
 })(jQuery);
