@@ -105,7 +105,7 @@ do_action( 'woocommerce_sidebar' ); ?>
 <div id="contact" class="et_pb_section et_pb_section_2 et_pb_section_parallax et_pb_with_background et_section_regular">
 				
 	<div class="et_parallax_bg_wrap">
-		<div class="et_parallax_bg" style="background-image: url(&quot;http://buddhabuds.urbanbuilt.ca/wp-content/uploads/2020/03/buddha_buds_halifax_cannabis.jpg&quot;); height: 598.0999999999999px; transform: translate(0px, 111.89999999999999px);"></div>
+		<div class="et_parallax_bg" style="background-image: url(../../../../wp-content/uploads/2020/03/buddha_buds_halifax_cannabis.jpg&quot;); height: 598.0999999999999px; transform: translate(0px, 111.89999999999999px);"></div>
 	</div>
 				
 				
