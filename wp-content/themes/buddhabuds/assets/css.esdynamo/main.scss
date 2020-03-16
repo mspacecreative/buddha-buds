@@ -161,6 +161,9 @@ h1, h2, h3, h4, h5, h6, p {
 #footer-bottom {
 	position: relative;
 }
+#main-footer p {
+	color: #fff;
+}
 .woocommerce #content .quantity input.qty, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-page #content .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce .quantity input.qty {
 	background-color: rgba(181, 157, 41, .25)!important;
 	color: #000!important;
