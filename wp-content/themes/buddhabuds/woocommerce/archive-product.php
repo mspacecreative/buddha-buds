@@ -125,7 +125,7 @@ do_action( 'woocommerce_sidebar' ); ?>
 			
 		</div>
 			
-		<div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
+		<div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child" style="background-color: #414042;">
 				
 			<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_dark">
 				
