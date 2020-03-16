@@ -102,6 +102,6 @@ do_action( 'woocommerce_after_main_content' );
  */
 do_action( 'woocommerce_sidebar' ); ?>
 
-<?php get_template_part('includes/contact-section'); ?>
+<?php include 'includes/contact-section.php' ?>
 
 <?php get_footer( 'shop' ); ?>
