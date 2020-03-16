@@ -257,6 +257,10 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	#logo {
 		max-width: 280px;
 	}
+	#main-content .container:before {
+		top: 58px;
+		height: calc(100% - 116px);
+	}
 	.et-fixed-header #logo {
 		max-width: 180px;
 	}
