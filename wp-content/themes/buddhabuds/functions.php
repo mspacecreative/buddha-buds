@@ -195,7 +195,7 @@ function modifyUserApprovalEmail($user_id){
 
 function sv_change_product_html( $price_html, $product ) {
 	if ( 252 === $product->id ) {
-		$price_html = '<span class="amount">$15.00 per kg</span>';	
+		$price_html = '<span class="amount">$100.00 / ounce</span>';	
 	}
 	
 	return $price_html;
@@ -205,7 +205,7 @@ add_filter( 'woocommerce_get_price_html', 'sv_change_product_html', 10, 2 );
 
 function sv_change_product_price_cart( $price, $cart_item, $cart_item_key ) {
 	if ( 252 === $cart_item['product_id'] ) {
-		$price = '$15.00 per kg<br>(7-8 skewers per kg)';
+		$price = '$100.00 / ounce';
 	}
 	return $price;
 }	
