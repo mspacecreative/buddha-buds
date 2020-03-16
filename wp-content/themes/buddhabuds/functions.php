@@ -193,9 +193,11 @@ function modifyUserApprovalEmail($user_id){
 	do_action( 'new_user_approve_user_approved', $user );
 }
 
-function sv_change_product_html( $price_html, $product ) {
+function sv_change_product_html( $price_html, $product, $price ) {
 	if ( 252 === $product->id ) {
 		$price_html = '<span class="amount">$100.00 / ounce</span>';	
+	} else {
+		$price_html = '<span class="amount">' . $price . ' / gram</span>';
 	}
 	
 	return $price_html;
@@ -210,10 +212,3 @@ function sv_change_product_price_cart( $price, $cart_item, $cart_item_key ) {
 	return $price;
 }	
 add_filter( 'woocommerce_cart_item_price', 'sv_change_product_price_cart', 10, 3 );
-
-function sv_change_product_price_display( $price ) {
-	$price .= ' / gram';
-	return $price;
-}
-add_filter( 'woocommerce_get_price_html', 'sv_change_product_price_display' );
-add_filter( 'woocommerce_cart_item_price', 'sv_change_product_price_display' );
