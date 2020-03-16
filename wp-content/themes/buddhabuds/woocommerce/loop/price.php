@@ -20,12 +20,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $product;
+$zypher = wc_get_product( 252 );
+?>
 
-add_filter( 'woocommerce_get_price_html', 'wpa83367_price_html', 100, 2 );
-function wpa83367_price_html( $price, $product ){
-    if ( $product->id == 252 ) {
-	echo '<span class="price">' . $product->get_price_html() _e(' / ounce') . '</span';
-	else {
-		echo '<span class="price">' . $product->get_price_html() _e(' / gram') . '</span';
-	}
-}
+<?php if ( $price_html = $zypher->get_price_html() ) : ?>
+	<span class="price"><?php echo $price_html; _e(' / ounce'); ?></span>
+<?php elseif ( $price_html = $product->get_price_html() ) : ?>
+	<span class="price"><?php echo $price_html; _e(' / gram'); ?></span>
+<?php endif; ?>
