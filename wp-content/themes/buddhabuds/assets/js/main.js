@@ -13,7 +13,7 @@
 	});
 	
 	if ( $('.logged-in').length ) {
-		$('.login-register').html('My Account');
+		$('.login-register').html('<a href="/my-account">My Account</a>');
 	} else {
 		$('.login-register').html('<a href="/my-account">Log in / Register</a>');
 	}
