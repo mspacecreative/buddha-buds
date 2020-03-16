@@ -110,7 +110,7 @@ do_action( 'woocommerce_sidebar' ); ?>
 				
 				
 	<div class="et_pb_row et_pb_row_0 et_pb_row_fullwidth et_pb_equal_columns et_pb_gutters1">
-		<div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
+		<div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough" style="background-color: rgba(0,0,0,0.6);">
 				
 			<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_dark">
 				<div class="et_pb_text_inner">
