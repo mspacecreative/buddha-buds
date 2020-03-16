@@ -20,17 +20,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 global $product;
-$zypher = 252;
 
 ?>
-
-<p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) );?>">
-
-<?php if ( $zypher ) {
-	echo $product->get_price_html(); _e(' / ounce');
-	else {
-		echo $product->get_price_html(); _e(' / gram');
-	}
-} ?>
-
-</p>
+<p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) );?>"><?php echo $product->get_price_html(); _e(' / gram'); ?></p>
