@@ -278,6 +278,10 @@ h1, h2, h3, h4, h5, h6, p {
 	.woocommerce-account .woocommerce-MyAccount-content {
 		width: 65%;
 	}
+	
+	.et_pb_gutters3.et_right_sidebar.woocommerce-page #main-content ul.products li.product {
+		width: 28.3%;
+	}
 }
 
 @media (max-width: 980px) {
