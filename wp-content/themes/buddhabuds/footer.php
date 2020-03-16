@@ -51,7 +51,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 						get_template_part( 'includes/social_icons', 'footer' );
 					} ?>
 
-					 &copy; <?php echo date('Y'); esc_html_e('. All rights reserved'); ?>
+					 &copy; <?php echo date('Y'); echo get_bloginfo('title'); esc_html_e('. All rights reserved'); ?>
 					
 					</div>	<!-- .container -->
 				</div>
