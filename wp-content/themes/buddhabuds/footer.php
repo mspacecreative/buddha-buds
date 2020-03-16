@@ -49,12 +49,10 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 				<?php
 					if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
 						get_template_part( 'includes/social_icons', 'footer' );
-					}
+					} ?>
 
-					// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
-					echo _e('&copy; ') date('Y') _e('. All rights reserved');
-					// phpcs:enable
-				?>
+					 &copy; <?php echo date('Y'); esc_html_e('. All rights reserved'); ?>
+					
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->
