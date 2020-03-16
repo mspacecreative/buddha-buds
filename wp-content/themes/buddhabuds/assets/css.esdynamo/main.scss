@@ -164,6 +164,10 @@ h1, h2, h3, h4, h5, h6, p {
 #footer-bottom p {
 	color: #fff;
 }
+.woocommerce ul.products li.product .woocommerce-placeholder {
+	border: none;
+	padding: 15px;
+}
 body .woocommerce button.button:disabled, body .woocommerce button.button:disabled[disabled] {
 	padding-right: 2em;
 	padding-left: .7em;
