@@ -198,7 +198,7 @@ function sv_change_product_html( $price_html, $product ) {
 	if ( 252 === $product->id ) {
 		$price_html = '<span class="amount">$100.00 / ounce</span>';	
 	} else {
-		$price_html = '<span class="amount">' . $price . ' / gram</span>';
+		$price_html = '<span class="amount">$' . $price . ' / gram</span>';
 	}
 	
 	return $price_html;
