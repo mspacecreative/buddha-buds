@@ -23,7 +23,7 @@ global $product;
 $zypher = wc_get_product( 252 );
 ?>
 
-<?php if ( $price_html = $zypher->get_price_html() ) : ?>
+<?php if ( $zypher->get_price_html() ) : ?>
 	<span class="price"><?php echo $price_html; _e(' / ounce'); ?></span>
 <?php elseif ( $price_html = $product->get_price_html() ) : ?>
 	<span class="price"><?php echo $price_html; _e(' / gram'); ?></span>
