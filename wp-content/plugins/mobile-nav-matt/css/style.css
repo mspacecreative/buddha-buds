@@ -224,6 +224,10 @@ body.et_fixed_nav #main-header.nav-down, .hamburger.nav-down {
 	transform: translateY(0);
 }
 
+body.et_fixed_nav.is-active #main-header.nav-down, .hamburger.is-active.nav-down {
+	transform: translateX(-250px);
+}
+
 body.et_fixed_nav #main-header.nav-up, .hamburger.nav-up {
 	transform: translateY(-58px);
 }
