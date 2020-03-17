@@ -172,6 +172,8 @@ h1, h2, h3, h4, h5, h6, p {
 	flex-direction: row;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	margin-left: -.5rem;
+	margin-right: -.5rem;
 }
 
 #footer-bottom {
@@ -297,6 +299,13 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	width: 100%;
 }
 
+.woocommerce-page ul.products li.product:nth-child(n), .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+	margin: 0 0 9.5% 0 !important;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	width: auto;
+}
+
 @media (min-width: 981px) {
 	#logo {
 		max-width: 280px;
@@ -345,12 +354,8 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 
 @media (max-width: 479px) {
 	.woocommerce-page ul.products li.product:nth-child(n), .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
-		margin: 0 9.5% 9.5% 0 !important;
-		flex-basis: 45.25%;
-		max-width: 45.25%;
-		clear: none;
-		width: auto;
-		float: none;
+		flex-basis: 50%;
+		max-width: 50%;
 	}
 	
 	.woocommerce div.product div.summary {
