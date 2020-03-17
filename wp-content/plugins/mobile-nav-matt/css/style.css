@@ -220,11 +220,11 @@ body.et_fixed_nav #main-header, .hamburger {
 	position: fixed;
 }
 
-body.et_fixed_nav #main-header.nav-down, .hambruger.nav-down {
+body.et_fixed_nav #main-header.nav-down, .hamburger.nav-down {
 	transform: translateY(0);
 }
 
-body.et_fixed_nav #main-header.nav-up, .hambruger.nav-up {
+body.et_fixed_nav #main-header.nav-up, .hamburger.nav-up {
 	transform: translateY(-58px);
 }
 
