@@ -224,6 +224,10 @@ body .hamburger-box {
 	display: none!important;
 }
 
+.et_fixed_nav #main-header.nav-down {
+	position: fixed;
+}
+
 html body .hamburger {
 	top: 14px;
 }
