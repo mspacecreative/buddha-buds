@@ -233,13 +233,6 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 .woocommerce-Tabs-panel p:last-child {
 	margin-bottom: 0;
 }
-.woocommerce ul.products li.product a {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	height: 100%;
-	align-items: center;
-}
 .home .fixed-background-image {
 	background-image: url(../img/backgrounds/home-products-bg-img.jpg);
     position: fixed;
@@ -332,6 +325,14 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
 		max-width: 33.33%;
 		flex-basis: 33.33%;
+	}
+	
+	.woocommerce ul.products li.product a {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		height: 100%;
+		align-items: center;
 	}
 	
 	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
