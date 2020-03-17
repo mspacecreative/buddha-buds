@@ -5,28 +5,28 @@
 	</div>
 				
 				
-	<div class="et_pb_row et_pb_row_0 et_pb_row_fullwidth et_pb_equal_columns et_pb_gutters1" style="padding: 0; width: 100%;">
-		<div class="et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough" style="background-color: rgba(0,0,0,0.6); padding-top: 100px; padding-right: 10%; padding-bottom: 100px; padding-left: 10%;">
+	<div class="et_pb_row et_pb_row_0 et_pb_row_fullwidth et_pb_equal_columns et_pb_gutters1">
+		<div class="left_column et_pb_column et_pb_column_1_2 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough">
 				
 			<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_dark">
 				<div class="et_pb_text_inner">
-					<h2 style="font-size: 40px; line-height: 1.5em;">Contact Us</h2>
+					<h2>Contact Us</h2>
 				</div>
 			</div>
 			
-			<div class="et_pb_button_module_wrapper et_pb_button_0_wrapper  et_pb_module ">
+			<div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_module">
 				<a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light" href="mailto:info@buddhabudshfx.com">info@buddhabudshfx.com
 				</a>
 			</div>
 			
 		</div>
 			
-		<div class="et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child" style="background-color: #414042; padding-top: 100px; padding-right: 10%; padding-bottom: 100px; padding-left: 10%;">
+		<div class="right_column et_pb_column et_pb_column_1_2 et_pb_column_3  et_pb_css_mix_blend_mode_passthrough et-last-child">
 				
 			<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_dark">
 				
 				<div class="et_pb_text_inner">
-					<h2 style="font-size: 40px; line-height: 1.5em;">My account</h2>
+					<h2>My account</h2>
 				</div>
 				
 				<div class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_module">
@@ -41,3 +41,29 @@
 	</div>
 				
 </div>
+
+<style>
+	#contact .et_pb_row {
+		padding: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	.left_column {
+		background-color: rgba(0,0,0,0.6);
+		padding-top: 100px;
+		padding-right: 10%;
+		padding-bottom: 100px;
+		padding-left: 10%;
+	}
+	#contact h2 {
+		font-size: 40px;
+		line-height: 1.5em;
+	}
+	.right_column {
+		background-color: #414042;
+		padding-top: 100px;
+		padding-right: 10%;
+		padding-bottom: 100px;
+		padding-left: 10%;
+	}
+</style>
