@@ -170,8 +170,8 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-	margin-left: -.5rem;
-	margin-right: -.5rem;
+	margin-left: -2rem;
+	margin-right: -2rem;
 }
 #footer-bottom {
 	position: relative;
@@ -266,8 +266,8 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 }
 .woocommerce-page ul.products li.product:nth-child(n), .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
 	margin: 0 0 9.5% 0!important;
-	padding-left: .5rem;
-	padding-right: .5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	width: auto;
 }
 .woocommerce ul.products li.product a {
