@@ -20,6 +20,10 @@
 		$('.home_login-register').html('Log in / Register');
 	}
 	
+	$('#variations .amount').each(function() {
+		$(this).html('/ gram').remove();
+	});
+	
 	// HIDE/SHOW HEADER ON SCROLL
 	var didScroll;
 	var lastScrollTop = 0;
