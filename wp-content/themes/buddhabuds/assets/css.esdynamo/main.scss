@@ -276,6 +276,7 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	height: 100%;
 }
 .woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
 	flex-wrap: wrap;
