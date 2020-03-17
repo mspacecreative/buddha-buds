@@ -115,6 +115,7 @@ mark {
 
 .container, .et_pb_row {
 	width: 90%;
+	overflow-x: hidden;
 }
 
 #main-header {
@@ -351,6 +352,10 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	#contact .et_parallax_bg {
 		transform: none !important;
 		top: 0;
+	}
+	
+	#left-area ul.products, .woocommerce ul.products {
+		flex-direction: column;
 	}
 }
 
