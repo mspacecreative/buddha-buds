@@ -368,20 +368,12 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
 		float: none;
 	}
-	
-	.woocommerce ul.products li.product a {
-		justify-content: flex-start;
-	}
 }
 
 @media (min-width: 480px) {
 	.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
 		max-width: 33.33%;
 		flex-basis: 33.33%;
-	}
-	
-	.woocommerce ul.products li.product a {
-		justify-content: flex-end;
 	}
 	
 	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
