@@ -270,6 +270,12 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	padding-right: .5rem;
 	width: auto;
 }
+.woocommerce ul.products li.product a {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+}
 @media (min-width: 981px) {
 	#logo {
 		max-width: 280px;
@@ -319,6 +325,9 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
 		float: none;
 	}
+	.woocommerce ul.products li.product a {
+		justify-content: flex-start;
+	}
 }
 
 @media (min-width: 480px) {
@@ -328,11 +337,7 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	}
 	
 	.woocommerce ul.products li.product a {
-		display: flex;
-		flex-direction: column;
 		justify-content: flex-end;
-		height: 100%;
-		align-items: center;
 	}
 	
 	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
