@@ -43,7 +43,7 @@
 </div>
 
 <style>
-	#contact .et_pb_row {
+	.et-db #et-boc .et-l #contact .et_pb_row {
 		padding: 0;
 		width: 100%;
 		max-width: 100%;
