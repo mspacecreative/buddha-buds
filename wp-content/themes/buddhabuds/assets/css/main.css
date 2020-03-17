@@ -303,6 +303,11 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	align-items: center;
 }
 
+.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 @media (min-width: 981px) {
 	#logo {
 		max-width: 280px;
