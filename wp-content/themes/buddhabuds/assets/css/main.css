@@ -366,6 +366,7 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2, .woocommerce-account .woocommerce-MyAccount-navigation, .woocommerce-account .woocommerce-MyAccount-content {
 		float: none;
 		width: 100%;
+		margin-top: 50px;
 	}
 	
 	.woocommerce div.product div.summary {
