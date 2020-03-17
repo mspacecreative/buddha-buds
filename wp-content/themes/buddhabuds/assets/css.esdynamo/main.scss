@@ -321,8 +321,8 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 
 @media (max-width: 479px) {
 	.woocommerce-page ul.products li.product:nth-child(n), .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
-	    flex-basis: 49.9%;
-	    max-width: 49.9%;
+	    flex-basis: 49%;
+	    max-width: 49%;
 	}
 	.woocommerce div.product div.summary {
 		width: 100%;
