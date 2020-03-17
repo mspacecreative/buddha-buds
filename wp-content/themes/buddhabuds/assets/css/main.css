@@ -170,9 +170,8 @@ h1, h2, h3, h4, h5, h6, p {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: row;
-	flex-direction: row;
 	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	margin-left: -2rem;
 	margin-right: -2rem;
 }
