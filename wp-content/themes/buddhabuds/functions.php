@@ -199,8 +199,6 @@ function sv_change_product_html( $price_html, $product ) {
 		$price_html = '<span class="amount">$100 / ounce</span>';	
 	} elseif ( 261 === $product->id ) {
 		$price_html = '<span class="amount">$8 / joint</span>';
-	} elseif ($product->is_type('variable')) ) {
-		$price_html = '<span class="amount">$' . $price . '</span>';
 	} else {
 		$price_html = '<span class="amount">$' . $price . ' / gram</span>';
 	}
