@@ -32,15 +32,6 @@
  				'theme_location' => 'primary-menu',
  				'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s ' . $menu . '</ul>', 
  			) ); ?>
- 			
- 			<ul class="et-social-icons">
- 			
- 				<li class="et-social-icon et-social-linkedin">
- 					<a href="https://www.linkedin.com/in/nadine-wentzell/" class="icon" target="_blank">
- 						<span><?php esc_html_e( 'LinkedIn', 'Divi' ); ?></span>
- 					</a>
- 				</li>
- 			</ul>
  </div>
  <?php echo ob_get_clean();
  }
