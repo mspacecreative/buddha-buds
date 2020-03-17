@@ -134,7 +134,6 @@ button.hamburger:hover {
 }
 
 body .hamburger {
-	position: fixed;
 	top: 40px;
 	right: 10%;
 	padding: 0 0 0 10px;
@@ -145,6 +144,14 @@ body .hamburger {
 	outline: none;
 	width: 40px;
 	height: 30px;
+}
+
+.hamburger.nav-up {
+	position: absolute;
+}
+
+.hamburger.nav-down {
+	position: fixed;
 }
 
 body .hamburger:hover {
