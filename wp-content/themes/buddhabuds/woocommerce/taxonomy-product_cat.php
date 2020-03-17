@@ -21,4 +21,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 wc_get_template( 'archive-product.php' );
 
-include 'includes/contact-section.php'
+include 'includes/contact-section.php';
