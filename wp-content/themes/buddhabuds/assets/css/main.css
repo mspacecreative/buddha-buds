@@ -161,6 +161,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #left-area ul.products, .woocommerce ul.products {
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
