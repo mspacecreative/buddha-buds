@@ -216,7 +216,7 @@ body .hamburger-box {
 	display: none!important;
 }
 
-.et_fixed_nav #main-header, .hamburger {
+body.et_fixed_nav #main-header, .hamburger {
 	position: fixed;
 }
 
