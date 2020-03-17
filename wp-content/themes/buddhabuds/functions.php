@@ -207,13 +207,6 @@ function sv_change_product_html( $price_html, $product ) {
 }
 add_filter( 'woocommerce_get_price_html', 'sv_change_product_html', 10, 2 );
 
-function woo_variations_table_print_table( $price_html, $product ) {
-	$price = $product->get_price();
-	$price_html = '<span class="amount">$' . $price . '</span>';
-	return $price_html
-}
-add_filter( 'woocommerce_get_price_html', 'woo_variations_table_print_table', 10, 2 );
-
 function sv_change_product_price_cart( $price, $cart_item, $cart_item_key ) {
 	if ( 252 === $cart_item['product_id'] ) {
 		$price = '$100.00 / ounce';
