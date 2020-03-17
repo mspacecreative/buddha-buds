@@ -332,6 +332,11 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	.woocommerce-account .woocommerce-MyAccount-content {
 		margin-top: 50px;
 	}
+	
+	#contact .et_parallax_bg {
+		transform: none;
+		top: 0;
+	}
 }
 
 @media (max-width: 479px) {
