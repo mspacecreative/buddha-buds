@@ -308,6 +308,10 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	flex-wrap: wrap;
 }
 
+.woocommerce.columns-3 {
+	max-width: 100%;
+}
+
 @media (min-width: 981px) {
 	#logo {
 		max-width: 280px;
