@@ -304,6 +304,7 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	    max-width: 45.25%;
 	    clear: none;
 		width: auto;
+		float: none;
 	}
 	.woocommerce-page ul.products li.product:nth-child(2n), .woocommerce ul.products[class*=columns-] li.product:nth-child(2n) {
 		margin-right: 0!important;
