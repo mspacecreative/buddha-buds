@@ -299,7 +299,7 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 		margin-top: 50px;
 	}
 	#contact .et_parallax_bg {
-		transform: none;
+		transform: none!important;
 		top: 0;
 	}
 }
