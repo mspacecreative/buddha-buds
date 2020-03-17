@@ -173,6 +173,7 @@ h1, h2, h3, h4, h5, h6, p {
     flex-wrap: wrap;
 	margin-left: -2rem;
 	margin-right: -2rem;
+	max-width: 100%;
 }
 #footer-bottom {
 	position: relative;
@@ -314,9 +315,6 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	#contact .et_parallax_bg {
 		transform: none!important;
 		top: 0;
-	}
-	#left-area ul.products, .woocommerce ul.products {
-		flex-flow: column wrap;
 	}
 }
 
