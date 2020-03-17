@@ -166,6 +166,10 @@ body .hamburger:hover {
   font-size: 20px;
 }
 
+body .hamburger-inner, body .hamburger-inner:after, body .hamburger-inner:before {
+	height: 3px;
+}
+
 .hamburger.is-active {
 	transform: translateX(-250px);
 	transition: .4s ease-in-out;
@@ -191,7 +195,7 @@ body .hamburger:after {
 }
 
 body .hamburger-inner, body .hamburger-inner:after, body .hamburger-inner:before {
-	background: #000;
+	background: #fff;
 	width: 30px;
 	border-radius: 0;
 }
@@ -214,7 +218,7 @@ body .hamburger-box {
 }
 
 html body .hamburger {
-	top: 22px;
+	top: 14px;
 }
 
 html #et-main-area {
