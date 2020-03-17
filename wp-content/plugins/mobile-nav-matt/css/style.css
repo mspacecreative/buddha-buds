@@ -146,14 +146,6 @@ body .hamburger {
 	height: 30px;
 }
 
-.hamburger.nav-up {
-	position: absolute;
-}
-
-.hamburger.nav-down {
-	position: fixed;
-}
-
 body .hamburger:hover {
 	opacity: 1;
 }
@@ -224,9 +216,16 @@ body .hamburger-box {
 	display: none!important;
 }
 
-.et_fixed_nav #main-header.nav-down {
+.et_fixed_nav #main-header, .hamburger {
 	position: fixed;
-	transition: .4s ease-in-out;
+}
+
+.et_fixed_nav #main-header.nav-down, .hambruger.nav-down {
+	transform: translateY(0);
+}
+
+.et_fixed_nav #main-header.nav-up, .hambruger.nav-up {
+	transform: translateY(-58px);
 }
 
 html body .hamburger {
