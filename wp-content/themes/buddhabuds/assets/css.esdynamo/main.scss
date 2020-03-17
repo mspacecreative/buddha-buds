@@ -275,9 +275,6 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	}
 }
 @media (max-width: 980px) {
-	#logo {
-		max-width: 230px;
-	}
 	.et_header_style_left #logo, .et_header_style_split #logo {
 		max-width: 180px;
 	}
@@ -286,9 +283,6 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	}
 	.woocommerce-account .woocommerce-MyAccount-content {
 		margin-top: 50px;
-	}
-	.et-fixed-header #logo {
-		max-width: 150px;
 	}
 }
 
