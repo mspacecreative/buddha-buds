@@ -324,6 +324,10 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	    flex-basis: 49%;
 	    max-width: 49%;
 	}
+	.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2, .woocommerce-account .woocommerce-MyAccount-navigation, .woocommerce-account .woocommerce-MyAccount-content {
+		float: none;
+		width: 100%;
+	}
 	.woocommerce div.product div.summary {
 		width: 100%;
 		margin-top: 15px;
