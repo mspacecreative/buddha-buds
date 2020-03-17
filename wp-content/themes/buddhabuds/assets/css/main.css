@@ -356,7 +356,6 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	
 	#left-area ul.products, .woocommerce ul.products {
 		flex-flow: column wrap;
-		-webkit-box-orient: vertical;
 		-ms-flex-direction: column;
 	}
 }
