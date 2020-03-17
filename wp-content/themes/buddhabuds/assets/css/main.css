@@ -293,6 +293,10 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	background-color: #414042;
 }
 
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {
+	width: 100%;
+}
+
 @media (min-width: 981px) {
 	#logo {
 		max-width: 280px;
