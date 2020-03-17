@@ -310,6 +310,10 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 		max-width: 230px;
 	}
 	
+	.et_header_style_left #logo, .et_header_style_split #logo {
+		max-width: 180px;
+	}
+	
 	#sidebar {
 		margin-top: 50px;
 	}
@@ -326,8 +330,10 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 @media (max-width: 479px) {
 	.woocommerce-page ul.products li.product:nth-child(n), .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
 		margin: 0 9.5% 9.5% 0 !important;
-		width: 45.25% !important;
+		flex-basis: 45.25%;
+		max-width: 45.25%;
 		clear: none;
+		width: auto;
 	}
 	
 	.woocommerce-page ul.products li.product:nth-child(2n), .woocommerce ul.products[class*=columns-] li.product:nth-child(2n) {
