@@ -21,7 +21,7 @@
 	}
 	
 	$('#variations .amount').each(function() {
-		$(this).html('/ gram').remove();
+		$(this).html().filter('/ gram').remove();
 	});
 	
 	// HIDE/SHOW HEADER ON SCROLL
