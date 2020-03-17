@@ -162,6 +162,7 @@ h1, h2, h3, h4, h5, h6, p {
 	box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
+	display: flex;
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
@@ -332,8 +333,8 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 
 @media (min-width: 480px) {
 	.woocommerce-page.columns-3 ul.products li.product, .woocommerce.columns-3 ul.products li.product {
-		max-width: 33.33%;
-		flex-basis: 33.33%;
+		max-width: 33%;
+		flex-basis: 33%;
 	}
 	
 	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
