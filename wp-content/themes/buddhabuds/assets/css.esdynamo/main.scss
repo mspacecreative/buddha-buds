@@ -98,6 +98,12 @@ body .pswp__ui--fit .pswp__top-bar {
 
 .et-cart-info span:before {
 	font-size: initial;
+	position: relative;
+	top: 2px;
+}
+
+#et-top-navigation .et-cart-info {
+	margin-top: -5px;
 }
 
 .et_pb_widget input[type=search] {
