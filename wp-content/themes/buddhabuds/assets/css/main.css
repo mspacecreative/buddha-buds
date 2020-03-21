@@ -413,3 +413,13 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 		float: right;
 	}
 }
+
+@media (min-width: 1280px) {
+	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+		width: 40%;
+	}
+	
+	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+		width: 56%;
+	}
+}
