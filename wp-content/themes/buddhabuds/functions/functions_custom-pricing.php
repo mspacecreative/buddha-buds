@@ -8,7 +8,7 @@ function sv_change_product_html( $price_html, $product ) {
 	} elseif ( 261 === $product->id ) {
 		$price_html = '<span class="amount">$8 / joint</span>';
 	} else {
-		$price_html = '<span class="amount">$' . $price . ' / gram</span>';
+		$price_html = '<span class="amount">From $' . $price . ' / gram</span>';
 	}
 	
 	return $price_html;
