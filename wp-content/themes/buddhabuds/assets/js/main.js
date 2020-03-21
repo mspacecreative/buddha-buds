@@ -3,7 +3,7 @@
 	// TOGGLE CONTACT PANEL
 	$('.contact-panel-toggle, .contact-panel').click(function(e) {
 		e.preventDefault();
-		$('.contact-panel, contact-panel-inner').fadeToggle();
+		$('.contact-panel, .contact-panel-inner').fadeToggle();
 	});
 	
 	function splashHeight() {
