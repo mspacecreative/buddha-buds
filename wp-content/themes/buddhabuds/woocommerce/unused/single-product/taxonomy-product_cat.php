@@ -19,6 +19,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-include 'includes/contact-section.php';
-
 wc_get_template( 'archive-product.php' );
