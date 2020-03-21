@@ -242,3 +242,5 @@ add_filter( 'wp_head', function(){
 		}, 99);
 	}
 });
+
+include 'functions/functions_minimum-order.php';

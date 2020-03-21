@@ -24,6 +24,19 @@
 	display: none;
 }
 
+div.vtmin-error {
+	margin-top: 0;
+	background: #fff;
+}
+
+body .pswp__ui--fit .pswp__caption {
+	display: none;
+}
+
+#sidebar form input[type=search] {
+	width: 100%;
+}
+
 body .pswp__bg {
 	background: #fff;
 	opacity: 1;
