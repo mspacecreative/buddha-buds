@@ -235,8 +235,7 @@ add_filter( 'woocommerce_registration_redirect', 'iconic_register_redirect', 10,
 // HIDE SUCCESS PAGE FROM PUBLIC
 add_filter( 'wp_head', function(){
 	if (is_page('success') && !is_user_logged_in()) {
-		add_filter('the_content', function(){
-			return __('Sorry! Only logged-in user are allowed to see the content');
-		}, 99);
+		wp_redirect( 'http://buddhabuds.urbanbuilt.ca');
+		exit;
 	}
 });
