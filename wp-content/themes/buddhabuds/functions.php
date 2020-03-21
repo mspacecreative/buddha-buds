@@ -38,7 +38,7 @@ add_action('wp_enqueue_scripts', 'customScripts');
 add_filter( 'woocommerce_variable_sale_price_html', 'wpglorify_variation_price_format', 10, 2 );
 add_filter( 'woocommerce_variable_price_html', 'wpglorify_variation_price_format', 10, 2 );
 
-include 'functions/functions_minimum-order.php';
+//include 'functions/functions_minimum-order.php';
 include 'functions/functions_custom-pricing.php';
 include 'functions/functions_new-customer-email-to-admin.php';
 include 'functions/functions_redirect-customer-after-registration.php';
