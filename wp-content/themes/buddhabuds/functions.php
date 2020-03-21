@@ -228,7 +228,7 @@ add_action('user_register', 'so174837_registration_email_alert');
 // REDIRECT CUSTOMER AFTER REGISTRATION
 function custom_redirection_after_registration( $redirection_url ){
     // Change the redirection Url
-    $redirection_url = get_permalink( wc_get_page_id( 'success' ) ); // Home page
+    $redirection_url = home_url('/success/'); // Success page
 
     return $redirection_url; // Always return something
 }
