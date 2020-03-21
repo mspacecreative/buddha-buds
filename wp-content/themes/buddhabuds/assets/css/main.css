@@ -204,10 +204,6 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	height: 100%;
 }
 
-.woocommerce .quantity {
-	height: 36.59px;
-}
-
 .home #main-content {
 	background-image: none;
 }
