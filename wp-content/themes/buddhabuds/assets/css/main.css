@@ -34,6 +34,7 @@
 	text-align: center;
 	width: 90%;
 	z-index: 99999999;
+	display: none;
 }
 
 .contact-panel-inner a {
