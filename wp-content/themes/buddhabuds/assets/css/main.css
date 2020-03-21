@@ -33,6 +33,7 @@
 	max-width: 300px;
 	text-align: center;
 	width: 90%;
+	z-index: 99999999;
 }
 
 .contact-panel-inner a {

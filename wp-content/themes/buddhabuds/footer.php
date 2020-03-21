@@ -62,10 +62,9 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 	</div> <!-- #page-container -->
 	
-	<div class="contact-panel">
-		<div class="contact-panel-inner">
-			<p>For general inquiries, please email us at <a class="et_pb_button" href="mailto:info@buddhabudshfx.com">info@buddhabudshfx.com</a></p>
-		</div>
+	<div class="contact-panel"></div>
+	<div class="contact-panel-inner">
+		<p>For general inquiries, please email us at <a class="et_pb_button" href="mailto:info@buddhabudshfx.com">info@buddhabudshfx.com</a></p>
 	</div>
 
 	<?php wp_footer(); ?>
