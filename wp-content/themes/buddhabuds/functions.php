@@ -224,3 +224,10 @@ function so174837_registration_email_alert( $user_id ) {
     wp_mail( 'orders@buddhabudshfx.com', 'New custom registration', $message );
 }
 add_action('user_register', 'so174837_registration_email_alert');
+
+// REDIRECT CUSTOMER AFTER REGISTRATION
+function iconic_register_redirect( $redirect ) {
+    return wc_get_page_permalink( 'success' );
+}
+ 
+add_filter( 'woocommerce_registration_redirect', 'iconic_register_redirect', 10, 2 );
