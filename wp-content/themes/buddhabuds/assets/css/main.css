@@ -13,6 +13,14 @@
 	margin-bottom: 0;
 }
 
+.page-id-358 .entry-title.main_title {
+	display: none;
+}
+
+.logged-in.page-id-358 .entry-title.main_title {
+	display: block;
+}
+
 .list-custom-taxonomy-widget input[type=submit] {
 	background-color: #b69d29;
 	border: none;

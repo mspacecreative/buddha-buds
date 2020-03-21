@@ -19,6 +19,14 @@ $darkgrey: #414042;
 	}
 }
 
+.page-id-358 .entry-title.main_title {
+	display: none;
+}
+
+.logged-in.page-id-358 .entry-title.main_title {
+	display: block;
+}
+
 .list-custom-taxonomy-widget input[type=submit] {
 	background-color: $buddhapuregold;
 	border: none;
