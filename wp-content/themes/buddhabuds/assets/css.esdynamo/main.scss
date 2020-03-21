@@ -30,6 +30,15 @@ $darkgrey: #414042;
 	display: none;
 }
 
+body .pswp__bg {
+	background: #fff;
+	opacity: 1;
+}
+
+body .pswp__ui--fit .pswp__top-bar {
+	background-color: $buddhapuregold;
+}
+
 .contact-panel-inner {
 	position: absolute;
     top: 50%;
