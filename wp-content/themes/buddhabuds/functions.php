@@ -220,7 +220,7 @@ add_filter( 'woocommerce_cart_item_price', 'sv_change_product_price_cart', 10, 3
 function so174837_registration_email_alert( $user_id ) {
     $user    = get_userdata( $user_id );
     $email   = $user->user_email;
-    $message = 'A new customer with the email address' . $email . ', has registered their account on Buddha Buds.';
+    $message = 'A new customer, ' . $email . ', has registered their account on Buddha Buds.';
     wp_mail( 'orders@buddhabudshfx.com', 'New custom registration', $message );
 }
 add_action('user_register', 'so174837_registration_email_alert');
@@ -230,7 +230,7 @@ function iconic_register_redirect( $redirect ) {
     return wc_get_page_permalink( 'success' );
 }
  
-add_filter( 'woocommerce_registration_redirect', 'iconic_register_redirect', 10, 2 );
+add_filter( 'woocommerce_registration_redirect', 'iconic_register_redirect');
 
 // HIDE SUCCESS PAGE FROM PUBLIC
 add_filter( 'wp_head', function(){
