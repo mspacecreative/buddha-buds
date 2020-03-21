@@ -202,7 +202,7 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	padding-bottom: .3em;
 }
 
-.woocommerce #content .quantity input.qty, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-page #content .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce .quantity input.qty {
+.woocommerce #content .quantity input.qty, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-page #content .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce .quantity input.qty, #variations input {
 	background-color: rgba(181, 157, 41, 0.25) !important;
 	color: #000 !important;
 	height: 100%;
