@@ -19,6 +19,33 @@ $darkgrey: #414042;
 	}
 }
 
+.contact-panel {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+	background: rgba(0, 0, 0, .85);
+	display: none;
+}
+
+.contact-panel-inner {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    max-width: 300px;
+    text-align: center;
+    width: 90%;
+}
+
+.contact-panel-inner a {
+	margin-top: 15px;
+	display: inline-block;
+}
+
 .page-id-358 .entry-title.main_title {
 	display: none;
 }

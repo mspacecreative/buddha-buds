@@ -1,5 +1,11 @@
 (function($) {
 	
+	// TOGGLE CONTACT PANEL
+	$('.contact-panel-toggle, .contact-panel').click(function(e) {
+		e.preventDefault();
+		$('.contact-panel').fadeToggle();
+	});
+	
 	function splashHeight() {
 		$('#splash').height($(window).height());
 	}
