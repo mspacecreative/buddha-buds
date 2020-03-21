@@ -99,7 +99,7 @@ endif;
 }
 }
 
-// APPROVE NEW USER
+/*// APPROVE NEW USER
 function ws_new_user_approve_autologout(){
        if ( is_user_logged_in() ) {
                 $current_user = wp_get_current_user();
@@ -191,7 +191,7 @@ function modifyUserApprovalEmail($user_id){
 	update_user_meta( $user->ID, 'pw_user_status', 'approved' );
 
 	do_action( 'new_user_approve_user_approved', $user );
-}
+} */
 
 function sv_change_product_html( $price_html, $product ) {
 	$price = $product->get_price();
