@@ -358,16 +358,20 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 }
 
 @media (max-width: 767px) {
-	#variations table.variations td {
+	body #variations table.variations td {
 		border: none;
+		width: 49%;
+		margin-top: 10px;
 	}
 	
-	#variations table.variations tr {
+	body #variations table.variations tr {
 		border: 1px solid rgba(181, 157, 41, 0.5);
+		padding: 10px;
+		display: inline-block;
 	}
 	
-	body #variations table.variations td:before {
-		padding: 10px;
+	body #variations input {
+		height: auto;
 	}
 }
 
