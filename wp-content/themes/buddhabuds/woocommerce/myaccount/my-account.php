@@ -32,7 +32,6 @@ do_action( 'woocommerce_account_navigation' ); ?>
 		 * @since 2.6.0
 		 */
 		do_action( 'woocommerce_account_content' );
-		
-		include 'includes/contact-section.php';
 	?>
 </div>
+<?php include '/includes/contact-section.php'; ?>
