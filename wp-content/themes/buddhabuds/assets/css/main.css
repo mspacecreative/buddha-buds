@@ -408,11 +408,11 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 	}
 	
 	.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
-		width: 40%;
+		width: 30%;
 	}
 	
 	.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
-		width: 56%;
+		width: 36%;
 		float: right;
 	}
 }
