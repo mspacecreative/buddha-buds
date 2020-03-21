@@ -33,6 +33,6 @@ do_action( 'woocommerce_account_navigation' ); ?>
 		 */
 		do_action( 'woocommerce_account_content' );
 		
-		include 'includes/contact-section.php';
+		include '/includes/contact-section.php';
 	?>
 </div>
