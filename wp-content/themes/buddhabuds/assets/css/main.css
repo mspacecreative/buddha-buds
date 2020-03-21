@@ -372,10 +372,7 @@ body .woocommerce button.button:disabled, body .woocommerce button.button:disabl
 		border: 1px solid rgba(181, 157, 41, 0.5);
 		padding: 10px;
 		display: inline-block;
-	}
-	
-	body #variations input {
-		height: auto;
+		margin-bottom: 15px;
 	}
 }
 
