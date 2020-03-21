@@ -226,11 +226,13 @@ function so174837_registration_email_alert( $user_id ) {
 add_action('user_register', 'so174837_registration_email_alert');
 
 // REDIRECT CUSTOMER AFTER REGISTRATION
-function iconic_register_redirect( $redirect ) {
-    return wc_get_page_permalink( 'success' );
+function custom_redirection_after_registration( $redirection_url ){
+    // Change the redirection Url
+    $redirection_url = get_home_url('success'); // Home page
+
+    return $redirection_url; // Always return something
 }
- 
-add_filter( 'woocommerce_registration_redirect', 'iconic_register_redirect');
+add_filter( 'woocommerce_registration_redirect', 'custom_redirection_after_registration', 10, 1 );
 
 // HIDE SUCCESS PAGE FROM PUBLIC
 add_filter( 'wp_head', function(){
