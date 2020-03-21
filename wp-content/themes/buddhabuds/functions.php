@@ -216,3 +216,11 @@ function sv_change_product_price_cart( $price, $cart_item, $cart_item_key ) {
 	return $price;
 }	
 add_filter( 'woocommerce_cart_item_price', 'sv_change_product_price_cart', 10, 3 );
+
+function so174837_registration_email_alert( $user_id ) {
+    $user    = get_userdata( $user_id );
+    $email   = $user->user_email;
+    $message = $email . ' has registered to your website.';
+    wp_mail( 'orders@buddhabudshfx.com', 'New User registration', $message );
+}
+add_action('user_register', 'so174837_registration_email_alert');
