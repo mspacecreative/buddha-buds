@@ -3,7 +3,7 @@
 // CUSTOMIZE PRICING PER PRODUCTS
 function sv_change_product_html( $price_html, $product ) {
 	$price = $product->get_price();
-	if ( 252 === $product->id ) {
+	if ( 252 === $product->id && 381 === $product->id ) {
 		$price_html = '<span class="amount">$100 / ounce</span>';	
 	} elseif ( 261 === $product->id ) {
 		$price_html = '<span class="amount">$8 / joint</span>';
