@@ -29,6 +29,12 @@ $darkgrey: #414042;
     margin-top: 10px;
 }
 
+.single-product.woocommerce div.product .out-of-stock {
+	display: inline-block;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
 .contact-panel {
 	position: fixed;
 	width: 100%;
