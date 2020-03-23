@@ -9,7 +9,7 @@
 		$(this).append('<p class="stock out-of-stock">Sold Out</p>');
 	});
 	
-	$('.single-product').find('.outofstock').children('.variations-table').each(function() {
+	$('.single-product .outofstock').find('.variations-table').each(function() {
 		$(this).prepend('<p class="stock out-of-stock">Sold Out</p>');
 	});
 	
