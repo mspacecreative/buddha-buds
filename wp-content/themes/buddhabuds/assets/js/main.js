@@ -9,6 +9,10 @@
 		$(this).append('<p class="stock out-of-stock">Sold Out</p>');
 	});
 	
+	$('.single-product').find('.outofstock').children('.variations-table').each(function() {
+		$(this).prepend('<p class="stock out-of-stock">Sold Out</p>');
+	});
+	
 	// TOGGLE CONTACT PANEL
 	$('.contact-panel-toggle, .contact-panel').click(function(e) {
 		e.preventDefault();
