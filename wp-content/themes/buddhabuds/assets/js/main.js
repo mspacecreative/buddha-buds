@@ -6,6 +6,11 @@
 		$('.contact-panel, .contact-panel-inner').fadeToggle();
 	});
 	
+	$('select').change(function(){
+      // this function runs when a user selects an option from a <select> element
+    	$(this).find(':selected').val();
+	});
+	
 	function splashHeight() {
 		$('#splash').height($(window).height());
 	}
