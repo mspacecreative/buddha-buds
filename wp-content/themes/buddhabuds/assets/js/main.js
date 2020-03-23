@@ -1,5 +1,14 @@
 (function($) {
 	
+	// OUT OF STOCK TAG
+	$('.summary').each(function() {
+		$(this).find('.out-of-stock').html('Sold Out');
+	});
+	
+	$('.products').find('.outofstock a').each(function() {
+		$(this).append('<p class="stock out-of-stock">Sold Out</p>');
+	});
+	
 	// TOGGLE CONTACT PANEL
 	$('.contact-panel-toggle, .contact-panel').click(function(e) {
 		e.preventDefault();
