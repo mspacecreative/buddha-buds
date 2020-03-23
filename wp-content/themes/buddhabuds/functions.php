@@ -44,5 +44,5 @@ include 'functions/functions_new-customer-email-to-admin.php';
 include 'functions/functions_redirect-customer-after-registration.php';
 include 'functions/functions_hide-cart.php';
 include 'functions/functions_remove-skus.php';
-//include 'functions/functions_out-of-stock.php';
+include 'functions/functions_out-of-stock.php';
 //include 'functions/functions_approve-new-user.php';

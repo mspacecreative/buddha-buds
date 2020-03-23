@@ -1,6 +1,6 @@
 (function($) {
 	
-	// OUT OF STOCK TAG
+	/*// OUT OF STOCK TAG
 	$('.summary').each(function() {
 		$(this).find('.out-of-stock').html('Sold Out');
 	});
@@ -11,7 +11,7 @@
 	
 	$('.single-product .outofstock').find('.variations-table').each(function() {
 		$(this).prepend('<p class="stock out-of-stock">Sold Out</p>');
-	});
+	});*/
 	
 	// TOGGLE CONTACT PANEL
 	$('.contact-panel-toggle, .contact-panel').click(function(e) {
