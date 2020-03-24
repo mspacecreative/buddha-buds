@@ -12,7 +12,7 @@ function sv_change_product_html( $price_html, $product ) {
 	} elseif ( 374 === $product->id ) {
 		$price_html = '<span class="amount">$100 / ounce</span>';	
 	} elseif ( 386 === $product->id ) {
-		$price_html = '<span class="amount">' . $price . ' / 6 gummies</span>';	
+		$price_html = '<span class="amount">$' . $price . ' / 6 gummies</span>';	
 	} else {
 		$price_html = '<span class="amount">$' . $price . ' / gram</span>';
 	}
@@ -31,7 +31,7 @@ function sv_change_product_price_cart( $price, $cart_item, $cart_item_key ) {
 	} elseif ( 261 === $cart_item['product_id'] ) {
 		$price = '$8.00 / joint';
 	} elseif ( 386 === $cart_item['product_id'] ) {
-		$price = ' / 6 gummies';
+		$price = '$10.00 / 6 gummies';
 	}
 	return $price;
 }	
