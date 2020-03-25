@@ -18,3 +18,14 @@ function misha_custom_product_sorting( $args ) {
 	return $args;
  
 }
+
+add_filter( 'woocommerce_catalog_orderby', 'misha_add_custom_sorting_options' );
+ 
+function misha_add_custom_sorting_options( $options ){
+ 
+	$options['title'] = 'Sort alphabetically';
+	$options['in-stock'] = 'Show products in stock first';
+ 
+	return $options;
+ 
+}
