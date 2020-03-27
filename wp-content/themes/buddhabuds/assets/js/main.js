@@ -19,6 +19,9 @@
 		$('.contact-panel, .contact-panel-inner').fadeToggle();
 	});
 	
+	// OPEN SOCIAL MEDIA CHANNELS IN NEW TAB
+	$(".et-social-icon a").attr('target', 'blank');
+	
 	$('select').change(function(){
       // this function runs when a user selects an option from a <select> element
     	$(this).find(':selected').val();
