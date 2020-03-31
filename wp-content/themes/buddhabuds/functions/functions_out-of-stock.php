@@ -16,3 +16,11 @@ function wcs_custom_get_availability( $availability, $_product ) {
     }
     return $availability;
 }
+
+function cw_change_product_html( $price_html, $product ) {
+ if ( ! $product->managing_stock() && ! $product->is_in_stock() ) {
+ 	$price_html = '<p class="stock out-of-stock">Sold Out</p>';
+ }
+ return $price_html;
+}
+add_filter( 'woocommerce_get_price_html', 'cw_change_product_html', 10, 2 );

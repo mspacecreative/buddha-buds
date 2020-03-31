@@ -61,8 +61,20 @@ body .age-gate-submit-yes, body .age-gate-submit-no {
 	display: none;
 }
 
-.single-product.postid-252 .summary > .price, .single-product.postid-381 .summary > .price, .single-product.postid-261 .summary > .price, .single-product.postid-374 .summary > .price, .single-product.postid-386 .summary > .price, .single-product .outofstock > div .summary > .price {
+.single-product.postid-252 .summary > .price, .single-product.postid-381 .summary > .price, .single-product.postid-261 .summary > .price, .single-product.postid-374 .summary > .price, .single-product.postid-386 .summary > .price {
 	display: block;
+}
+
+.single-product.woocommerce div.product .summary .variations .out-of-stock {
+	font-size: 10px;
+    padding: 5px!important;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.single-product.woocommerce div.product .summary.entry-summary > .out-of-stock {
+	margin-bottom: 5px;
 }
 
 body .age-gate-submit-yes {
