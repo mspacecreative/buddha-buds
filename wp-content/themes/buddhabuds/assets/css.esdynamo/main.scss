@@ -30,6 +30,41 @@ $darkgrey: #414042;
 	display: inline-block;
 }
 
+body .age-gate-form, body .age-gate-form label, body .age-gate-form h1, body .age-gate-form h2, body .age-gate-form p {
+	line-height: 1.5em;
+}
+
+body .age-gate-form {
+	max-width: 600px;
+}
+
+body .age-gate-challenge, .age-gate-message {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+body .age-gate-submit-yes, body .age-gate-submit-no {
+	font-weight: 500;
+    padding: .3em 1em;
+    line-height: 1.7em!important;
+    border: 2px solid;
+    border-radius: 3px;
+    -webkit-transition: none;
+    transition: none;
+	font-size: 16px;
+    border-width: 0px!important;
+    border-radius: 0px;
+}
+
+body .age-gate-submit-yes {
+	background-color: #b69d29;
+	color: #fff;
+}
+
+body .age-gate-submit-no {
+	background-color: #c9c9c9;
+}
+
 .single-product.woocommerce div.product .summary .out-of-stock {
 	color: #fff;
     margin-bottom: 25px;
