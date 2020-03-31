@@ -51,6 +51,10 @@ body .age-gate-submit-yes, body .age-gate-submit-no {
 	cursor: pointer;
 }
 
+.single-product .summary > .price {
+	display: none;
+}
+
 body .age-gate-submit-yes {
 	background-color: #b69d29;
 	color: #fff;
