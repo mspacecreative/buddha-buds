@@ -55,7 +55,7 @@ body .age-gate-submit-yes, body .age-gate-submit-no {
 	display: none;
 }
 
-.single-product.postid-252 .summary > .price, .single-product.postid-381 .summary > .price, .single-product.postid-261 .summary > .price.single-product.postid-374 .summary > .price, .single-product.postid-386 .summary > .price {
+.single-product.postid-252 .summary > .price, .single-product.postid-381 .summary > .price, .single-product.postid-261 .summary > .price, .single-product.postid-374 .summary > .price, .single-product.postid-386 .summary > .price {
 	display: block;
 }
 
