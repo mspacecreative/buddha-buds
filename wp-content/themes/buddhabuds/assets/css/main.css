@@ -29,6 +29,10 @@ body .g-recaptcha {
 	padding: 3px;
 }
 
+body .woocommerce-privacy-policy-text {
+	padding: 0 3px;
+}
+
 body .age-gate-form, body .age-gate-form label, body .age-gate-form h1, body .age-gate-form h2, body .age-gate-form p {
 	line-height: 1.5em;
 }
