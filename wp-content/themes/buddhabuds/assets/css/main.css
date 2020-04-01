@@ -24,7 +24,7 @@
 	display: inline-block;
 }
 
-body .et_shop_image {
+body .et_shop_image img {
 	max-height: 200px;
 	width: auto;
 }
