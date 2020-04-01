@@ -26,7 +26,7 @@
 
 body .et_shop_image img {
 	max-height: 200px;
-	width: auto;
+	width: auto !important;
 }
 
 body .g-recaptcha {
