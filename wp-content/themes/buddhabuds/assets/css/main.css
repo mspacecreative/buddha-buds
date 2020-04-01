@@ -24,6 +24,11 @@
 	display: inline-block;
 }
 
+body .g-recaptcha {
+	margin: 15px 0;
+	padding: 3px;
+}
+
 body .age-gate-form, body .age-gate-form label, body .age-gate-form h1, body .age-gate-form h2, body .age-gate-form p {
 	line-height: 1.5em;
 }
