@@ -24,6 +24,11 @@
 	display: inline-block;
 }
 
+body .et_shop_image {
+	max-height: 200px;
+	width: auto;
+}
+
 body .g-recaptcha {
 	margin: 15px 0;
 	padding: 3px;
