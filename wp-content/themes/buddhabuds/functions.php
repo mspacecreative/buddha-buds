@@ -43,4 +43,5 @@ include 'functions/functions_hide-cart.php';
 include 'functions/functions_remove-skus.php';
 include 'functions/functions_out-of-stock.php';
 include 'functions/functions_product-sorting.php';
+include 'functions/delivery-fee.php';
 //include 'functions/functions_approve-new-user.php';
