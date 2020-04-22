@@ -15,6 +15,8 @@ function sv_change_product_html( $price_html, $product ) {
 		$price_html = '<span class="amount">$' . $price . '/6 gummies</span>';	
 	} elseif ( 445 === $product->id ) {
 		$price_html = '<span class="amount">$' . $price . '/bottle</span>';	
+	} elseif ( 589 === $product->id ) {
+		$price_html = '<span class="amount">$' . $price . '/bottle</span>';	
 	}
 	
 	return $price_html;
