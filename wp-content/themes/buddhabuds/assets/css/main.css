@@ -24,6 +24,10 @@
 	display: inline-block;
 }
 
+.new-arrival {
+	color: #b69d29;
+}
+
 body .et_shop_image img {
 	max-height: 200px;
 	width: auto !important;
