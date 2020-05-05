@@ -45,4 +45,5 @@ include 'functions/functions_out-of-stock.php';
 include 'functions/functions_product-sorting.php';
 include 'functions/delivery-fee.php';
 include 'functions/new-arrival.php';
+include 'functions/shortcode-tweaks.php';
 //include 'functions/functions_approve-new-user.php';
