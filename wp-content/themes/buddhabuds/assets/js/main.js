@@ -19,6 +19,14 @@
 		$('.contact-panel, .contact-panel-inner').fadeToggle();
 	});
 	
+	// HIDE $100 OUNCES IF THERE ARE NONE AVAILABLE
+	var hundredDollarOunces = $('.hundred_dollar_ounces > div > .columns-4');
+	if ( hundredDollarOunces.text() == '' ) {
+		hundredDollarOunces.parent().parent().parent().parent().parent().css('display', 'none');
+	} else {
+		hundredDollarOunces.parent().parent().parent().parent().parent().css('display', 'block');
+	}
+	
 	// OPEN SOCIAL MEDIA CHANNELS IN NEW TAB
 	$(".et-social-icon a").attr('target', 'blank');
 	
