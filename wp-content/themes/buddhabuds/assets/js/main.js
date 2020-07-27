@@ -21,7 +21,7 @@
 	
 	// HIDE $100 OUNCES IF THERE ARE NONE AVAILABLE
 	var hundredDollarOunces = $('.hundred_dollar_ounces > div > .columns-4');
-	if ( hundredDollarOunces.text() == '' ) {
+	if ( hundredDollarOunces.contents().length == 0 ) {
 		hundredDollarOunces.parent().parent().parent().parent().parent().css('display', 'none');
 	} else {
 		hundredDollarOunces.parent().parent().parent().parent().parent().css('display', 'block');
