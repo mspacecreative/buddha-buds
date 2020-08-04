@@ -1,6 +1,6 @@
 <?php
 
-// CUSTOMIZE PRICING PER PRODUCTS
+// CUSTOMIZED PRICING PER PRODUCTS
 function sv_change_product_html( $price_html, $product ) {
 	$price = $product->get_price();
 	if ( 252 === $product->id ) {
@@ -76,9 +76,10 @@ $price .= woocommerce_price($product->max_variation_price);
 return $price;
 }*/
 
+// TRIM DECIMAL AND ZEROS ON PRICES
 add_filter( 'woocommerce_price_trim_zeros', '__return_true' );
-add_filter( 'woocommerce_variable_price_html', 'bbloomer_variation_price_format_min', 9999, 2 );
 
+// SHOW MIN PRICE AND MAX PRICE OF EACH PRODUCT
 function bbloomer_variation_price_format_min( $price, $product ) {
    $prices = $product->get_variation_prices('min', true );
    $maxprices = $product->get_variation_price( 'max', true ) ;
@@ -88,6 +89,4 @@ function bbloomer_variation_price_format_min( $price, $product ) {
    $maxPrice = sprintf( __( 'to %1$s', 'woocommerce' ), wc_price( $maxprices ) ) . '/ounce';
    return $minPrice .' ' .$maxPrice ;
 }
-
-// TRIM DECIMAL AND ZEROS ON PRICES
-add_filter( 'woocommerce_price_trim_zeros', '__return_true' );
+add_filter( 'woocommerce_variable_price_html', 'bbloomer_variation_price_format_min', 9999, 2 );
