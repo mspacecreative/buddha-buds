@@ -88,3 +88,6 @@ function bbloomer_variation_price_format_min( $price, $product ) {
    $maxPrice = sprintf( __( 'to %1$s', 'woocommerce' ), wc_price( $maxprices ) ) . '/ounce';
    return $minPrice .' ' .$maxPrice ;
 }
+
+// TRIM DECIMAL AND ZEROS ON PRICES
+add_filter( 'woocommerce_price_trim_zeros', '__return_true' );
