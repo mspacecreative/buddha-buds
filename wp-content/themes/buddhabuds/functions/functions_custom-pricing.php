@@ -8,7 +8,7 @@ function sv_change_product_html( $price_html, $product ) {
 	} elseif ( 381 === $product->id ) {
 		$price_html = '<span class="amount">$100/ounce</span>';	
 	} elseif ( 261 === $product->id ) {
-		$price_html = '<span class="amount">$8/joint</span>';
+		$price_html = '<span class="amount">$' . $price . '/joint</span>';
 	} elseif ( 374 === $product->id ) {
 		$price_html = '<span class="amount">$100/ounce</span>';	
 	} elseif ( 386 === $product->id ) {
