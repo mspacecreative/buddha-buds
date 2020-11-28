@@ -20,8 +20,9 @@ function buddha_woocommerce_edit_login_form() {
 add_action( 'woocommerce_login_form', 'buddha_woocommerce_edit_login_form', 15 );
 
 function buddha_validate_extra_login_fields( $errors, $sanitized_user_login, $user_email ) {
-    if ( empty( $_POST['g-recaptcha-response'] ) ) {
-        $errors->add( 'captcha-error', wp_kses_post( '<strong>Error</strong>: Captcha is missing.', 'nada' ) );
+    $recaptchacheckbox = $_POST['g-recaptcha-response'];
+    if ( empty( $recaptchacheckbox ) ) {
+        $errors->add( 'captcha-error', wp_kses_post( '<strong>Error</strong>: Captcha is missing.', 'buddha' ) );
     }
     return $errors;
 }
