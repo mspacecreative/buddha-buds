@@ -3,6 +3,9 @@ $buddhagoldcolor: rgba(181, 157, 41, 0.5);
 $buddhapuregold: #b69d29;
 $darkgrey: #414042;
 
+// WOOCOMMERCE STYLES
+@import "_woocommerce.scss";
+
 // UL LISTS
 %ulvertical {
 	ul {
