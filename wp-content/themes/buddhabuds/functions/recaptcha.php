@@ -6,12 +6,13 @@ function buddha_woocommerce_edit_registration_form() {
 add_action( 'woocommerce_register_form', 'buddha_woocommerce_edit_registration_form', 15 );
 
 function buddha_validate_extra_register_fields( $errors, $username, $email ) {
-    if ( empty( $_POST['g-recaptcha-response'] ) ) {
-        $errors->add( 'captcha-error', wp_kses_post( '<strong>Error</strong>: Captcha is missing.', 'buddha' ) );
+    $recaptchacheckbox = $_POST['g-recaptcha-response'];
+    if ( empty( $recaptchacheckbox ) ) {
+        $errors->add( 'captcha-error', wp_kses_post( 'Please check reCAPTCHA box', 'buddha' ) );
     }
     return $errors;
 }
-add_filter( 'woocommerce_registration_errors', 'buddha_validate_extra_register_fields', 10, 3 );
+add_filter( 'woocommerce_process_registration_errors', 'buddha_validate_extra_register_fields', 10, 3 );
 
 // WOOCOMMERCE LOGIN FORM
 function buddha_woocommerce_edit_login_form() {
@@ -22,7 +23,7 @@ add_action( 'woocommerce_login_form', 'buddha_woocommerce_edit_login_form', 15 )
 function buddha_validate_extra_login_fields( $errors, $sanitized_user_login, $user_email ) {
     $recaptchacheckbox = $_POST['g-recaptcha-response'];
     if ( empty( $recaptchacheckbox ) ) {
-        $errors->add( 'captcha-error', wp_kses_post( '<strong>Error</strong>: Captcha is missing.', 'buddha' ) );
+        $errors->add( 'captcha-error', wp_kses_post( 'Please check reCAPTCHA box', 'buddha' ) );
     }
     return $errors;
 }
