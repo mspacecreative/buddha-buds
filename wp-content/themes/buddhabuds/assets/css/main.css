@@ -6,7 +6,6 @@
 .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1, .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
 	float: none;
 	flex-basis: 48%;
-	margin-right: 4%;
 	display: flex;
 	flex-direction: column;
 }
