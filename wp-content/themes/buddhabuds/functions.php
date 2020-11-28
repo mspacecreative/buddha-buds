@@ -32,6 +32,9 @@ function customScripts()
 {
     wp_register_script('mainjs', get_stylesheet_directory_uri() . '/assets/js/main.js', array('jquery'), null, true);
     wp_enqueue_script('mainjs');
+    
+    wp_register_script('recaptcha', 'https://www.google.com/recaptcha/api.js', array('jquery'), null, true);
+    wp_enqueue_script('recaptcha');
 }
 add_action('wp_enqueue_scripts', 'customScripts');
 
@@ -46,4 +49,5 @@ include 'functions/functions_product-sorting.php';
 include 'functions/delivery-fee.php';
 include 'functions/new-arrival.php';
 include 'functions/shortcode-tweaks.php';
+include 'functions/recaptcha.php';
 //include 'functions/functions_approve-new-user.php';
