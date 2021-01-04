@@ -6,6 +6,9 @@ $darkgrey: #414042;
 // WOOCOMMERCE STYLES
 @import "_woocommerce.scss";
 
+// HOME PAGE STYLES
+@import "_home.scss";
+
 // UL LISTS
 %ulvertical {
 	ul {

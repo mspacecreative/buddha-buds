@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 15px;
 }
 
-body .woocommerce button.button:disabled, body .woocommerce button.button:disabled[disabled] {
+body .woocommerce button.button:disabled, body .woocommerce button.button[disabled]:disabled {
 	padding-right: 2em;
 	padding-left: .7em;
 	padding-top: .3em;
