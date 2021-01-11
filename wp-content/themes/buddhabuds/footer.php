@@ -65,6 +65,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 	<div class="contact-panel"></div>
 	<div class="contact-panel-inner">
 		<p>For general inquiries, please email us at <a class="et_pb_button" href="mailto:info@buddhabudshfx.com">info@buddhabudshfx.com</a></p>
+		<p style="margin-top: 50px;">For phone orders, please contact us at <a class="et_pb_button" href="tel:19028800231">(902) 880-0231</a></p>
 	</div>
 
 	<?php wp_footer(); ?>
