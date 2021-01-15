@@ -27,6 +27,7 @@
 	*
 	*  Gets a specific data value
 	*
+	*  @date	14/12/17
 	*  @since	5.6.5
 	*
 	*  @param	string name
