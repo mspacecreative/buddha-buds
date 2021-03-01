@@ -1,17 +1,12 @@
 (function($) {
 	
-	/*// OUT OF STOCK TAG
-	$('.summary').each(function() {
-		$(this).find('.out-of-stock').html('Sold Out');
+	// ELIMINATE APPLY BUTTON ON PRODUCT FILTERS
+	$('.et_pb_sidebar_0 select, #sidebar select').each(function() {
+		//$(this).next().hide();
+		$(this).change(function() {
+			$(this).parent().submit();
+		});
 	});
-	
-	$('.products').find('.outofstock a').each(function() {
-		$(this).append('<p class="stock out-of-stock">Sold Out</p>');
-	});
-	
-	$('.single-product .outofstock').find('.variations-table').each(function() {
-		$(this).prepend('<p class="stock out-of-stock">Sold Out</p>');
-	});*/
 	
 	// TOGGLE CONTACT PANEL
 	$('.contact-panel-toggle, .contact-panel').click(function(e) {
@@ -29,11 +24,6 @@
 	
 	// OPEN SOCIAL MEDIA CHANNELS IN NEW TAB
 	$(".et-social-icon a").attr('target', 'blank');
-	
-	$('select').change(function(){
-      // this function runs when a user selects an option from a <select> element
-    	$(this).find(':selected').val();
-	});
 	
 	function splashHeight() {
 		$('#splash').height($(window).height());
